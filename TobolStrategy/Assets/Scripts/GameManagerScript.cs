@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lox : MonoBehaviour
+public class GameManagerScript : MonoBehaviour
 {
-	public GameObject Camera;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +13,6 @@ public class Lox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Camera.transform.Rotate(0, 10, 0);
+        
     }
 }
